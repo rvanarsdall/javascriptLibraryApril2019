@@ -1,0 +1,116 @@
+.tail {
+    border: solid 2px black;
+    border-top: 0px;
+    border-right: transparent;
+    transform: rotate(23deg);
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    margin-left: 450px;
+    margin-top: -110px;
+    position: relative;
+  }
+  
+  .unibrow {
+    border: solid 3px black;
+    border-radius: 25%;
+    border-top: 0 transparent;
+    border-right: 0 transparent;
+    border-left: 0 transparent;
+    width: 90px;
+    height: 40px;
+    margin-left: 580px;
+    margin-top: -225px;
+    transform: rotate(5deg);
+  }
+  
+  .forehead1 {
+    border: solid 4px black;
+    border-radius: 50%;
+    border-top: 0 transparent;
+    border-right: 0 transparent;
+    border-left: 0 transparent;
+    width: 130px;
+    height: 40px;
+    margin-left: 560px;
+    margin-top: -30px;
+    transform: rotate(5deg);
+  }
+  
+  .righteye {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: black;
+    width: 15px;
+    height: 25px;
+    margin-left: 590px;
+    margin-top: -5px;
+  }
+  
+  .rightpupil {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: white;
+    width: 7px;
+    height: 12px;
+    margin-left: 597px;
+    margin-top: -27px;
+  }
+  
+  .lefteye {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: black;
+    width: 15px;
+    height: 25px;
+    margin-left: 643px;
+    margin-top: -15px;
+  }
+  
+  .leftpupil {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: white;
+    width: 7px;
+    height: 12px;
+    margin-left: 650px;
+    margin-top: -29px;
+  }
+  
+  .mouth {
+    border: solid 4px black;
+    border-radius: 50%;
+    border-top-right-radius: 10px;
+    border-bottom: 0 transparent;
+    border-left: 0 transparent;
+    border-right: 0 transparent;
+    width: 60px;
+    height: 30px;
+    margin-left: 590px;
+    margin-top: 30px;
+    
+  }
+  
+  .rightarm {
+    border: solid 4px black;
+    border-radius: 50%;
+    border-top-right-radius: 80px;
+    border-bottom: 0 transparent;
+    border-left: 0 transparent;
+    border-right: 0 transparent;
+    width: 60px;
+    height: 250px;
+    margin-left: 510px;  
+  }
+  
+  .floating {  
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+      from { transform: translate(0, 0px); }
+      50% { transform: translate(0, 15px); }
+  }
