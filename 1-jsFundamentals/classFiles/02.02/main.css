@@ -1,0 +1,47 @@
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Economica', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Economica', sans-serif;
+    font-size: 4.5em;
+
+}
+#scroll-down{
+    padding:0;
+    background-color: black;
+    width: 400px;
+    color: white;
+    position: absolute;
+    text-align:center;
+}
+.main-header{
+    background-image: url(https://images.pexels.com/photos/348523/pexels-photo-348523.jpeg?cs=srgb&dl=beach-blur-close-up-348523.jpg&fm=jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+#learn-code{
+    padding-top: 5em;
+    width: 100vw;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.mid-break{
+    background-image: url(assets/mountains1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
